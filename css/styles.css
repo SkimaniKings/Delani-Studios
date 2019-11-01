@@ -30,14 +30,28 @@ h2 {
   text-align: center;
 }
 .services {
-    font-size:18px;
+  font-size: 18px;
 }
 #service {
-  background-image:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://bit.ly/329RzGF);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(https://bit.ly/329RzGF);
   height: 30vh;
   color: white;
-  padding-top:90px;
+  padding-top: 90px;
 }
 #row2 {
-    padding-top:50px;
+  padding-top: 50px;
+}
+#contacts {
+  background-image: url(https://bit.ly/36o6L62);
+  height: 40vh;
+  color: white;
+}
+.form {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+#email, #textarea, #name {
+    background: transparent;
 };
