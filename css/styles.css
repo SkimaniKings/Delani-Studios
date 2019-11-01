@@ -1,26 +1,40 @@
 #home {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://bit.ly/2JC7x5P);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(https://bit.ly/2JC7x5P);
   background-attachment: fixed;
   background-size: cover;
   height: 100vh;
   text-align: center;
-  padding-top:310px;
-  color:white;
-  
-
+  padding-top: 310px;
+  color: white;
 }
-.header{
-    font-size:3em;
-    padding-top: 33px;
-    font-family: 'Open Sans', sans-serif;
+.header {
+  font-size: 3em;
+  padding-top: 33px;
+  font-family: "Open Sans", sans-serif;
 }
 .ppp {
-    font-size:1.5em;
+  font-size: 1.5em;
 }
 .about {
-    text-align:center;
-    line-height:2;
+  text-align: center;
+  line-height: 2;
+  font-size: 18px;
 }
 h2 {
-    text-align: center;
+  text-align: center;
+  padding-top: 20px;
+  font-size: 3em;
+}
+.services {
+  text-align: center;
+}
+.services {
+    font-size:18px;
+}
+#service {
+  background-image:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://bit.ly/329RzGF);
+  height: 30vh;
+  color: white;
+  padding-top:90px;
 }
