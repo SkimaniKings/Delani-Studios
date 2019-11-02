@@ -66,3 +66,13 @@ h2 {
 .roows {
   padding: 1.4rem;
 }
+.text {
+  position: absolute;
+  top: 50%;
+  color:black;
+  font-size:1.3em;
+  border:2px solid white;
+  background:lime;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
