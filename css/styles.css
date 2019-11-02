@@ -52,6 +52,17 @@ h2 {
   justify-content: center;
   text-align: center;
 }
-#email, #textarea, #name {
-    background: transparent;
-};
+#email,
+#textarea,
+#name {
+  background: transparent;
+  color: white;
+}
+#name::placeholder,
+#email::placeholder,
+#textarea::placeholder {
+  color: white;
+}
+.roows {
+  padding: 1rem;
+}
