@@ -16,6 +16,26 @@
 .ppp {
   font-size: 1.5em;
 }
+#mouse {
+  animation: mouse 2s infinite;
+  padding-top:40px;
+
+}
+@keyframes mouse {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
 .about {
   text-align: center;
   line-height: 2;
