@@ -36,6 +36,7 @@
  - css
  - javascript
  - bootsrap 
+ - jquery
  
  ## Acknowledgement 
  I would like to thank the following for their assistance through out this project.
