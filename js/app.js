@@ -1,15 +1,19 @@
-let submit = function() {
-    var name=document.getElementById("name");
-    var email = document.getElementById("email");
-    var message = document.getElementById("message");
-    var display=document.getElementById("display").innerHTML;
 
-    if (name ==" " );  (email== " "); (message == ""); {
-     alert("Please enter valid information");
+ function validateForm() {
+    var name = document.getElementById("name").value;
+    var email = document.getElementById("email").value;
+
+    if (name == "") {        
+        alert("please fill in your name");               
+        return false;
     }
-    else {
-        display.style.background="green"
-        display.style.color="white"
-display.innerHTML="Hey " + name + " your message has been received ." + " Thank you!"
+    else if  (email == "") {
+        alert("Please fill in your name and email");        
+        return false;
     }
-};
+
+    else  {
+    alert(name + ", we have received your message. Thank you for reaching out to us.");
+    }
+        
+}
