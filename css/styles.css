@@ -72,7 +72,7 @@ h2 {
   color: black;
   font-size: 1.3em;
   border: 2px solid white;
-  background: lime;
+  background: lime; 
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -84,4 +84,9 @@ a {
 }
 .btn btn-outline-info btn-lg {
   color: white;
+}
+.portfolio:hover {
+  opacity:0.3;
+  transform:scale(1.1);
+  transition: opacity 0.5s ease-out;
 }
