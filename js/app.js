@@ -15,5 +15,16 @@
     else  {
     alert(name + ", we have received your message. Thank you for reaching out to us.");
     }
-        
+    event.preventDefault();
 }
+
+$(document).ready(function() {
+    $("#designImage").click(function() {
+      $("#design").toggle(1600);
+    });
+    $("#productImage").click(function() {
+        $("#product").toggle(1600);
+  }); $("#developImage").click(function() {
+        $("#development").toggle(1600);
+      });
+});
