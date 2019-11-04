@@ -18,7 +18,6 @@
 }
 #mouse {
   animation: mouse 2s infinite;
-
 }
 @keyframes mouse {
   0%,
@@ -47,7 +46,7 @@ h2 {
 }
 .services {
   text-align: center;
-  font-size:1.2em;
+  font-size: 1.2em;
   line-height: 1.8;
 }
 .services {
@@ -93,7 +92,7 @@ h2 {
   color: black;
   font-size: 1.3em;
   border: 2px solid white;
-  background: lime; 
+  background: lime;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -107,17 +106,20 @@ a {
   color: white;
 }
 .portfolio:hover {
-  opacity:0.3;
-  transform:scale(1.1);
+  opacity: 0.3;
+  transform: scale(1.1);
   transition: opacity 0.5s ease-out;
 }
 .whatWeDo {
-  font-size:1.2em;
+  font-size: 1.2em;
   line-height: 1.9;
+  display:none;
+}
+.pointer {
+  cursor: pointer;
 }
 @media only screen and (max-width: 600px) {
-body {
-  overflow-x:hidden;
-}
-
+  body {
+    overflow-x: hidden;
+  }
 }
