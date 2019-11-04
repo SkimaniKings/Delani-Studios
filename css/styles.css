@@ -48,6 +48,8 @@ h2 {
 }
 .services {
   text-align: center;
+  font-size:1.2em;
+  line-height: 1.8;
 }
 .services {
   font-size: 18px;
@@ -112,4 +114,5 @@ a {
 }
 .whatWeDo {
   font-size:1.2em;
+  line-height: 1.9;
 }
