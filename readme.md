@@ -28,7 +28,7 @@
 
 ## Project Screenshot
 
-<img src="images/screenshot.png" width=300px >
+<img src="./images/screenshot.png" width=300px/> >
 - This is the landing page of the website.
 
 ## Technologies Used
