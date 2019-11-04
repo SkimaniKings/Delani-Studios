@@ -99,12 +99,7 @@ h2 {
 .text {
   display: none;
 }
-a {
-  color: white;
-}
-.btn btn-outline-info btn-lg {
-  color: white;
-}
+
 .portfolio:hover {
   opacity: 0.3;
   transform: scale(1.1);
