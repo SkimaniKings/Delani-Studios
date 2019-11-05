@@ -36,8 +36,9 @@
 }
 .about {
   text-align: center;
-  line-height: 2;
+  line-height: 2.5;
   font-size: 18px;
+  height:40vh;
 }
 h2 {
   text-align: center;
@@ -55,16 +56,20 @@ h2 {
 #service {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url(https://bit.ly/329RzGF);
-  height: 50vh;
+  height: 60vh;
   color: white;
   padding-top: 90px;
+}
+#what {
+  height:20vh;
 }
 #row2 {
   padding-top: 50px;
 }
 #contacts {
+  padding-top:50px;
   background-image: url(https://bit.ly/36o6L62);
-  height: 40vh;
+  height: 60vh;
   color: white;
 }
 .form {
@@ -91,8 +96,8 @@ h2 {
   top: 50%;
   color: black;
   font-size: 1.3em;
-  border: 2px solid white;
-  background: lime;
+  border: 3px solid white;
+
   left: 50%;
   transform: translate(-50%, -50%);
 }
