@@ -9,18 +9,17 @@
   color: white;
 }
 .header {
-  font-size: 3em;
+  font-size: 3.5em;
   padding-top: 33px;
   font-family: "Open Sans", sans-serif;
 }
 .ppp {
-  font-size: 1.5em;
+  font-size: 2em;
   padding: 20px;
 }
 #mouse {
   animation: mouse 2s infinite;
-  position: absolute;
-  top: 90vh;
+  top: 50vh; 
 }
 @keyframes mouse {
   0%,
@@ -40,8 +39,8 @@
 .about {
   text-align: center;
   line-height: 2.5;
-  font-size: 18px;
-  height: 40vh;
+  font-size: 20px;
+  /* height: 50vh; */
 }
 h2 {
   text-align: center;
@@ -50,15 +49,17 @@ h2 {
 }
 .services {
   text-align: center;
-  font-size: 1.2em;
+  font-size: 20px;
   line-height: 2;
 }
 .services {
   font-size: 20px;
 }
 #service {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+  background-image: 
     url(https://bit.ly/329RzGF);
+    background-repeat: no-repeat;
+    background-size: cover;
   height: 60vh;
   color: white;
   padding-top: 90px;
