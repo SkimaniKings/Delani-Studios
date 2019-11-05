@@ -15,9 +15,12 @@
 }
 .ppp {
   font-size: 1.5em;
+  padding: 20px;
 }
 #mouse {
   animation: mouse 2s infinite;
+  position: absolute;
+  top: 90vh;
 }
 @keyframes mouse {
   0%,
@@ -59,9 +62,6 @@ h2 {
   height: 60vh;
   color: white;
   padding-top: 90px;
-}
-#what {
-  height: 20vh;
 }
 #row2 {
   padding-top: 50px;

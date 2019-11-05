@@ -18,15 +18,30 @@ function validateForm() {
 }
 $(document).ready(function() {
   $("#designImage").click(function() {
-    $("#design").toggle("2000");
+    $("#design").show("2000");
+    $("#designImage").hide("slow")
   });
-    $("#developImage").click(function() {
-  $("#development").toggle("2000");
-    });
-        $("#productImage").click(function() {
-       $("#product").toggle("2000");
-    
+  $("#design").click(function() {
+    $("#designImage").show("2000");
+    $("#design").hide("slow")
   });
+  $("#developImage").click(function() {
+    $("#development").show("2000");
+    $("#developImage").hide("slow")
+  });
+  $("#development").click(function() {
+    $("#developImage").show("2000");
+    $("#development").hide("slow")
+  });
+  $("#productImage").click(function() {
+    $("#product").show("2000");
+    $("#productImage").hide("slow")
+  });
+  $("#product").click(function() {
+    $("#productImage").show("2000");
+    $("#product").hide("slow")
+  });
+
   $("#project1").hover(
     function() {
       $("#text1").show("2000");
